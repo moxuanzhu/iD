@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-spike_strip",
+    "fields": [
+        "direction",
+        "access",
+        "height",
+        "colour"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "barrier": "spikes"
+    },
+    "name": "Spike Strip",
+    "matchScore": 0.50
+}

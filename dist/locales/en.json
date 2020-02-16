@@ -692,6 +692,7 @@
             },
             "show_more": "Show More",
             "view_on_osm": "View on openstreetmap.org",
+            "view_on_osmose": "View on osmose.openstreetmap.fr",
             "view_on_keepRight": "View on keepright.at",
             "feature_type": "Feature Type",
             "fields": "Fields",
@@ -2967,7 +2968,8 @@
                     "placeholder": "1 EUR, 5 USD, 10 JPY…"
                 },
                 "check_date": {
-                    "label": "Last Checked Date"
+                    "label": "Last Checked Date",
+                    "placeholder": "YYYY-MM-DD"
                 },
                 "clothes": {
                     "label": "Clothes"
@@ -3921,7 +3923,8 @@
                     "terms": ""
                 },
                 "opening_date": {
-                    "label": "Expected Opening Date"
+                    "label": "Expected Opening Date",
+                    "placeholder": "YYYY-MM-DD"
                 },
                 "opening_hours": {
                     "label": "Hours",
@@ -4518,7 +4521,8 @@
                 },
                 "start_date": {
                     "label": "Start Date",
-                    "terms": "inception"
+                    "terms": "inception",
+                    "placeholder": "YYYY-MM-DD"
                 },
                 "step_count": {
                     "label": "Number of Steps",
@@ -6162,6 +6166,10 @@
                 "barrier/sally_port": {
                     "name": "Sally Port",
                     "terms": "Postern,castle side gate"
+                },
+                "barrier/spikes": {
+                    "name": "Spike Strip",
+                    "terms": ""
                 },
                 "barrier/stile": {
                     "name": "Stile",
@@ -10297,20 +10305,6 @@
                 "description": "Annotation overlay provided by basemap.at.",
                 "name": "basemap.at Overlay"
             },
-            "basemap.at-surface": {
-                "attribution": {
-                    "text": "basemap.at"
-                },
-                "description": "Surface layer provided by basemap.at.",
-                "name": "basemap.at Surface"
-            },
-            "basemap.at-terrain": {
-                "attribution": {
-                    "text": "basemap.at"
-                },
-                "description": "Terrain layer provided by basemap.at.",
-                "name": "basemap.at Terrain"
-            },
             "eufar-balaton": {
                 "attribution": {
                     "text": "EUFAR Balaton ortofotó 2010"
@@ -10331,13 +10325,6 @@
                 },
                 "description": "The city map is an overview map that describes Gothenburg. It contains general information about land, communications, hydrography, buildings, address numbers and street names, administrative division and other orientation text.",
                 "name": "Gothenburg City map"
-            },
-            "gsi.go.jp": {
-                "attribution": {
-                    "text": "GSI Japan"
-                },
-                "description": "Japan GSI ortho Imagery. Usually better than bing, but a bit older.",
-                "name": "Japan GSI ortho Imagery"
             },
             "gsi.go.jp_airphoto": {
                 "attribution": {
